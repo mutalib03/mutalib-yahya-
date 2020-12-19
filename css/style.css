@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0
+
+}
+#title{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem
+}
+#description{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  margin-bottom: .8rem
+}
+body{
+  background-color: #F6F7F8
+}
+
+#survey-form{
+max-width: 940px;
+  margin: 0 auto;
+  background-color: #20A4F3;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+}
+.group{
+  margin-bottom: 1rem
+}
