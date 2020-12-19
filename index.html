@@ -20,6 +20,7 @@
           class="form-input"
           name="name"
           placeholder="your name"
+          required
         />
       </div>
       <div class="group">
@@ -30,11 +31,19 @@
           class="form-input"
           name="email"
           placeholder="your email"
+          required
         />
       </div>
       <div class="group">
         <label for="number" id="number-label">age</label><br />
-        <input type="number" placeholder="your age" min="1" max="54" />
+        <input
+          id="number"
+          type="number"
+          placeholder="your age"
+          min="1"
+          max="54"
+          required
+        />
       </div>
       <div class="group">
         <p>select your best product</p>
@@ -46,34 +55,36 @@
       </div>
       <div class="group">
         <p>do you like our site</p>
-        <input type="radio" name="radio" />
+        <input type="radio" name="radio" value="yes" />
         yes i do <br />
-        <input type="radio" name="radio" />
+        <input type="radio" name="radio" value="no" />
         no i dont <br />
       </div>
-  <div class="group">
-  <p>
-    What would you like to see improved?
-  </p>
+      <div class="group">
+        <p>What would you like to see improved?</p>
 
-<input type="checkbox" name="checkbox" value="quantityofproduct"> quantity of our product <br />
-<input type="checkbox" name="checkbox" value="quanlityofproduct"> quality of our product <br />
-<input type="checkbox" name="checkbox" value="quanlity of site"> quality of our site <br />
-<input type="checkbox" name="checkbox" value="service"> our customer care service <br />
-  </div>
+        <input type="checkbox" name="checkbox" value="quantityofproduct" />
+        quantity of our product <br />
+        <input type="checkbox" name="checkbox" value="quanlityofproduct" />
+        quality of our product <br />
+        <input type="checkbox" name="checkbox" value="quanlity of site" />
+        quality of our site <br />
+        <input type="checkbox" name="checkbox" value="service" /> our customer
+        care service <br />
+      </div>
 
-  <div class="group">
-    <p>
-    any comment or suggestion?
-    </p>
-    <textarea name="textarea" rows="8" cols="80" placeholder="enter your comment"></textarea>
-  </div>
+      <div class="group">
+        <p>any comment or suggestion?</p>
+        <textarea
+          name="textarea"
+          rows="8"
+          cols="80"
+          placeholder="enter your comment"
+        ></textarea>
+      </div>
 
-
-
-
-
-  </form>
+      <button id="submit">sumpit</button>
+    </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="js/index.js"></script>
