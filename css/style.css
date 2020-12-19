@@ -1,30 +1,52 @@
-*{
+* {
   box-sizing: border-box;
-  margin: 0
-
+  margin: 0;
 }
-#title{
+#title {
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
-#description{
+#description {
   text-align: center;
   text-transform: capitalize;
   font-size: 1.3rem;
-  margin-bottom: .8rem
+  margin-bottom: 0.8rem;
 }
-body{
-  background-color: #F6F7F8
+body {
+  background-color: #f6f7f8;
 }
 
-#survey-form{
-max-width: 940px;
+#survey-form {
+  max-width: 940px;
   margin: 0 auto;
-  background-color: #20A4F3;
+  background-color: #20a4f3;
   padding: 1.5rem;
   font-size: 1.3rem;
 }
-.group{
-  margin-bottom: 1rem
+#email,
+#number,
+#name {
+  width: 50%;
+  height: 25px;
+}
+#survey-form label {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+#survey-form p {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+#dropdown {
+  width: 50%;
+  height: 25px;
+}
+
+.group {
+  margin-bottom: 1rem;
+}
+
+#submit {
+  width: 30%;
 }
